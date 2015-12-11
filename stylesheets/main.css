@@ -11,7 +11,7 @@ html, body {
 
 .jumbotron {
   height: 550px;
-  background: url('./images/BmoreLarge.jpg') no-repeat center center fixed;
+  background: url('../images/BmoreLarge.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,4 +254,5 @@ header {
     display: block;
   }
 }
+
 
