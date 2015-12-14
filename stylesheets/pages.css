@@ -1,0 +1,108 @@
+.jumbotron {
+  height: 550px;
+  background: url('../images/iupat-logo-large.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.toolBar {
+  width:100%;
+  height:50px;
+  background-color:#F33;
+  clear:both;
+  border-bottom:2px solid #c00;
+}
+.toolWrap {
+  width:100%;
+  padding:0px;
+  margin:0px;
+  height:50px;
+}
+nav {
+  padding:0px;
+  margin-right:20px;
+  float:right;
+  font-size:18px;
+  font-family:arial;
+}
+
+nav ul ul {
+  display:none;
+}
+nav ul li:hover > ul {
+  display:block;
+}
+
+nav ul {
+  padding:0px;
+  margin:0px;
+  list-style:none;
+  position:relative;
+  display:inline-table;
+}
+nav ul:after {
+  content: "";
+  clear:both;
+  display:block;
+}
+
+nav ul li {
+  float:left;
+}
+nav ul li:hover {
+  background-color:#c00;
+}
+nav ul li:hover a {
+  color:#333;
+
+}
+nav ul li a {
+  display:block;
+  height:50px;
+  padding:15px 20px 0px;
+  color:white;
+  text-decoration:none;
+}
+nav ul ul {
+  position:absolute;
+  background-color:#ccc;
+  padding:0;
+  top: 100%;
+  border-radius:0px;
+}
+nav ul ul li {
+  float:none;
+  position:relative;
+}
+nav ul ul ul {
+  position:absolute;
+  right:100%;  /*** switch to left to change position of nested menus ***/
+  top:0;
+}
+
+.fixed-sized-square {
+  display: table;
+  width: 200px;
+  height: 200px;
+  /*background: url('../images/Os.jpg') no-repeat center center fixed;*/
+  /*background: #4679BD;*/
+  float: left;
+  margin: 10px;
+}
+
+.fixed-sized-square li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white
+}
+
+.orioles {
+  background: url('../images/Os.jpg') no-repeat center center fixed;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
