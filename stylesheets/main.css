@@ -9,76 +9,8 @@ html, body {
   padding: 0;
 }
 
-.jumbotron {
-  height: 550px;
-  background: url('../images/BmoreLarge.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+/*---------------------------- TOP MENU NAVIGATION BAR ---------------------------*/
 
-.partners {
-  color: black;
-  opacity: 1.0;
-  display: table;
-  float: left;
-  /*width: 50%;*/
-  height: 750px;
-  margin: 12px;
-}
-
-.partners .fti {
-  width: 40%;
-  float: left;
-  line-height: 1.25em;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  padding: 15px;
-  position: absolute (top: 0px, left: 10px);
-}
-
-.partners .lmci {
-  width: 40%;
-  float: right;
-  line-height: 1.25em;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  padding: 25px;
-}
-
-.jumbotron-2 {
-  height: 750px;
-  background: url('../images/iupat-logo-large.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*opacity: 0.5;*/
-  text-align: center;
-}
-
-.jumbotron-3 {
-  height: 500px;
-  background-color: rgb(250, 185, 18);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.jumbotron-3 .col {
-  float: left;
-  width: 25%;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
 
 .nav {
   background-color: #333;
@@ -100,7 +32,7 @@ html, body {
   font-size: 16px;
   display: inline;
   padding: 0 20px;
-  text-align: left;
+  text-align: center;
   /*list-style-type: none;
   position: relative;*/
 }
@@ -133,31 +65,15 @@ html, body {
   display: block;
 }
 
+/*------------------------- TOP JUMBOTRON / PHOTO CAROUSEL ------------------------*/
 
-.trans-box {
-  background-color: #333;
-  opacity: 0.75;
-  position: static;
-  vertical-align: top;
-  width: 15%;
-  height: 20%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #000;
-}
-
-.trans-box a {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  text-decoration: none;
-  /*padding: 0px 5px;*/
-  /*font-weight: bold;*/
-  /*-webkit-text-stroke: 1px black;*/
-}
-
-/*Why doesn't this work?!?!?*/
-.transbox a h2 {
-  padding: 0px 5px;
+.jumbotron {
+  height: 550px;
+  background: url('../images/BmoreLarge.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .main {
@@ -187,6 +103,34 @@ html, body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.trans-box {
+  background-color: #333;
+  opacity: 0.75;
+  position: static;
+  vertical-align: top;
+  width: 15%;
+  height: 20%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000;
+}
+
+.trans-box a {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-decoration: none;
+  /*padding: 0px 5px;*/
+  /*font-weight: bold;*/
+  /*-webkit-text-stroke: 1px black;*/
+}
+
+/*Why doesn't this work?!?!?*/
+.transbox a h2 {
+  padding: 0px 5px;
+}
+
+/*--------------------------------- SECTION 2 -------------------------------------*/
 
 .supporting {
   padding-top: 80px;
@@ -240,6 +184,106 @@ html, body {
 .clearfix {
   clear: both;
 }
+
+/*--------------------------------- SECTION 3 -------------------------------------*/
+
+.jumbotron-2 {
+  height: 750px;
+  background: url('../images/iupat-logo-large.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*opacity: 0.5;*/
+  text-align: center;
+}
+
+.jumbotron-2 .partners {
+  float: left;
+  /*width: 45%;*/
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+
+.partners {
+  color: black;
+  opacity: 1.0;
+  display: table;
+  float: left;
+  /*width: 50%;*/
+  height: 750px;
+  margin: 12px;
+}
+
+.partners .fti {
+  width: 40%;
+  float: left;
+  line-height: 1.25em;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  position: absolute (top: 0px, left: 10px);
+}
+
+.partners .lmci {
+  width: 40%;
+  float: right;
+  line-height: 1.25em;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px;
+}
+
+/*--------------------------------- SECTION 4 -------------------------------------*/
+
+.jumbotron-3 {
+  height: 500px;
+  background-color: rgb(250, 185, 18);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.jumbotron-3 .col {
+  float: left;
+  width: 22%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+/*--------------------------------- SECTION 5 -------------------------------------*/
+
+.jumbotron-4 {
+  height: 600px;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.jumbotron-4 .col {
+  float: left;
+  width: 45%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 0 5px 5px;
+}
+
+/*--------------------------------- FOOTER -------------------------------------*/
 
 .footer {
   background-color: #333;
