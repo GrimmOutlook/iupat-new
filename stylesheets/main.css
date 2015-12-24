@@ -283,6 +283,28 @@ html, body {
   padding: 0 5px 5px;
 }
 
+/*--------------------------------- SECTION 6 -------------------------------------*/
+
+.jumbotron-5 {
+  height: 575px;
+  background-color: rgb(250, 185, 18);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.jumbotron-5 .col {
+  float: left;
+  width: 30%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
 /*--------------------------------- FOOTER -------------------------------------*/
 
 .footer {
