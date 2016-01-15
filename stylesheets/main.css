@@ -308,7 +308,7 @@ html, body {
 /*---------------------------- SECTION 7 - Calendar --------------------------------*/
 
 #calendar-wrap {
-  height: 575px;
+  height: 1200px;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -361,6 +361,53 @@ html, body {
   font-size: 13px;
 }
 
+#calendar .days li {
+  height: 180px;
+}
+
+#calendar .days li:hover {
+  background: #ccc;
+}
+
+#calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  background: #333;
+  color: #fff;
+  width: 25px;
+  border-radius: 50%;
+  float: right;
+}
+
+#calendar .event {
+  clear: both;
+  /* Do this ^ b/c dates are floated right & event text should be below date */
+  display: block;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #666;
+  line-height: 14px;
+  background: #e4f2f2;
+  border: 1px solid #b5dbdc;
+  color: #009aaf;
+  text-decoration: none;
+}
+
+#calendar .event-desc {
+  color: #666;
+  margin: 3px 0 7px 0;
+  text-decoration: none;
+}
+
+#calendar .other-month {
+  background: #808080;
+  color: #666;
+}
+/*----------- 5:45 of Lecture 11------------------*/
 
 
 /*--------------------------------- FOOTER -------------------------------------*/
