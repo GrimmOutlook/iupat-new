@@ -310,8 +310,13 @@ html, body {
   100% {top: 0px; left: 0px;}
 }
 
-.photo-container {
+.thumbs {
+  height: 350px;
+  width: 700px;
+}
 
+.photo-container {
+  margin: auto;
 }
 
 
