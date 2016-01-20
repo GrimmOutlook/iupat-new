@@ -283,6 +283,36 @@ html, body {
   padding: 0 5px 5px;
 }
 
+/*---------------------------- Image Slider ------------------------------------*/
+
+.thumbnail {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background: #000;
+  -webkit-animation: thumbmove 5s infinite;
+  animation: thumbmove 5s infinite;
+}
+
+@-webkit-keyframes thumbmove {
+  0% {top: 0px; left: 0px;}
+  25% {top: 0px; left: 300px;}
+  50% {top: 300px; left: 300px;}
+  75% {top: 300px; left: 0px;}
+  100% {top: 0px; left: 0px;}
+}
+
+@keyframes thumbmove {
+  0% {top: 0px; left: 0px;}
+  25% {top: 0px; left: 300px;}
+  50% {top: 300px; left: 300px;}
+  75% {top: 300px; left: 0px;}
+  100% {top: 0px; left: 0px;}
+}
+
+
+
+
 /*--------------------------------- SECTION 6 -------------------------------------*/
 
 .jumbotron-5 {
@@ -425,7 +455,6 @@ html, body {
   float: none;
  }
 }
-
 
 /*--------------------------------- FOOTER -------------------------------------*/
 
