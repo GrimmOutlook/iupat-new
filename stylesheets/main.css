@@ -316,7 +316,7 @@ html, body {
 }
 
 .thumbs {
-  height: 350px;
+  height: 150px;
   width: 1200px;
 }
 
@@ -368,6 +368,7 @@ ul.slides img {
   width: 705px;
   height: 350px;
   position: relative;
+  list-style-type: none;
 }
 
 ul.thumbs li a:hover span {
