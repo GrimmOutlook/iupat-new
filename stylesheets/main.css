@@ -582,17 +582,61 @@ ul.slides li:target {
 /*--------------------------- SECTION 8 - SPORTS -------------------------------*/
 
 .sports {
-
+  height: 900px;
+  background-color: rgb(250, 185, 18);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5px;
 }
 
 
-.sports ul {
+ul.square li {
   list-style-type: none;
+  position: relative;
+  box-sizing: border-box;
+  width: 15%;
+  height: 165px;
+  border: 1px solid #000;
+  float: left;
+  margin: 0.5%;
 }
 
+ul.square li span {
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  text-decoration: none;
+  color: #000;
+  /*z-index: 1;*/
+}
 
+/*-- Why does this not target the Orioles box? --*/
+li#orioles {
+  height: 165px;
+  background: url('../images/logo-orioles.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
 
-
+/*-- Why does this not target the Baysox text? --*/
+ul.square #baysox span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  color: #000;
+}
 
 
 
