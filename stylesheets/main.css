@@ -264,7 +264,7 @@ html, body {
 /*--------------------------------- SECTION 5 -------------------------------------*/
 
 .jumbotron-4 {
-  height: 1400px;
+  height: 1100px;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -577,6 +577,25 @@ ul.slides li:target {
   float: none;
  }
 }
+
+
+/*--------------------------- SECTION 8 - SPORTS -------------------------------*/
+
+.sports {
+
+}
+
+
+.sports ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
+
 
 /*--------------------------------- FOOTER -------------------------------------*/
 
