@@ -620,11 +620,13 @@ ul.square li span {
 /*-- Why does this not target the Orioles box? --*/
 li#orioles {
   height: 165px;
-  background: url('../images/logo-orioles.png') no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url('../images/Os.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*-- Why does this not target the Baysox text? --*/
